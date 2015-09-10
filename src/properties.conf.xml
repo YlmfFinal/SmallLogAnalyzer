@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<property>
+		<name>DATE_PATTERN</name>
+		<value>yyyy-MM-dd HH:mm:ss</value>
+	</property>
+	<property>
+		<name>IPADDRESS_PATTERN</name>
+		<value>((1\d{2}|([1-9]?\d)|2[0-4]\d|25[0-5])\.){3}(1\d{2}|([1-9]?\d)|2[0-4]\d|25[0-5])</value>
+	</property>
+	<property>
+		<name>KEYWORDS_LENGTH</name>
+		<value>10</value>
+	</property>
+	<property>
+		<name>FIELD_SEPARATOR</name>
+		<value>  </value>
+	</property>
+	<property>
+		<name>LOG_FILE</name>
+		<value>/input/logFile.log</value>
+	</property>
+	<property>
+		<name>INPUT_FILE</name>
+		<value>/input/logFile.log</value>
+	</property>
+	<property>
+		<name>TMP_FILE_DIR</name>
+		<value>/tmp/mapreduce</value>
+	</property>
+	<property>
+		<name>OUTPUT_FILE_DIR</name>
+		<value>/output/mapreduce</value>
+	</property>
+	<property>
+		<name>OUTPUT_FILE</name>
+		<value>/output/tops.log</value>
+	</property>
+	<property>
+		<name>ENTRY_NUMBER</name>
+		<value>1000000</value>
+	</property>
+	<property>
+		<name>TOP_NUMBER</name>
+		<value>50</value>
+	</property>
+	<property>
+		<name>CORE_POOL_SIZE</name>
+		<value>20</value>
+	</property>
+	<property>
+		<name>MAXIMUM_POOL_SIZE</name>
+		<value>100</value>
+	</property>
+	<property>
+		<name>KEEP_ALIVE_TIME</name>
+		<value>1000</value>
+	</property>
+	<property>
+		<name>TIME_UNIT</name>
+		<value>MICROSECONDS</value>
+	</property>
+	<property>
+		<name>BLOCKING_QUEUE_CAPACITY</name>
+		<value>999900</value>
+	</property>
+</configuration>
